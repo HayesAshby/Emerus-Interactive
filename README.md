@@ -4,8 +4,16 @@ Interactive Map of Emerus
 ## Commands
 
 ### Development
-npm run dev
 
+Installs Dependencies
+```
+npm i
+```
+
+Runs Dev locally
+```
+npm run dev
+```
 
 ### Deployment
 npm run build
