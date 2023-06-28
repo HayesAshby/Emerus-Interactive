@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import AppBarWithTheme from "./AppBarWithTheme";
 import React from "react";
 import Routing from "./routing";
@@ -13,10 +13,10 @@ export const ColorModeContext = React.createContext({
  */
 export default function App() {
   return (
-    <BrowserRouter basename="/Emerus-Interactive">
+    <HashRouter>
       <AppBarWithTheme>
         <Routing />
       </AppBarWithTheme>
-    </BrowserRouter>
+    </HashRouter>
   );
 }

@@ -18,7 +18,7 @@ const generatePOI = (place: { name; HoverInfo; POIPage; coords; shape }) => {
           alt="area"
           shape={place.shape}
           coords={place.coords}
-          href={`/Emerus-Interactive/Shadowfell/${place.name}`}
+          href={`/Emerus-Interactive/#/Shadowfell/${place.name}`}
         />
       </Tooltip>
     )
