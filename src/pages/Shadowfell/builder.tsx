@@ -8,7 +8,7 @@ const generatePOI = (place: { name; HoverInfo; POIPage; coords; shape }) => {
     route: (
       <Route
         key={place.name}
-        path={`/MaterialPlane/${place.name}`}
+        path={`/Shadowfell/${place.name}`}
         element={place.POIPage}
       />
     ),
@@ -18,7 +18,7 @@ const generatePOI = (place: { name; HoverInfo; POIPage; coords; shape }) => {
           alt="area"
           shape={place.shape}
           coords={place.coords}
-          href={`/MaterialPlane/${place.name}`}
+          href={`/Emerus-Interactive/Shadowfell/${place.name}`}
         />
       </Tooltip>
     )
