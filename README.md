@@ -1,19 +1,15 @@
-# Emerus-Interactive
-Interactive Map of Emerus
+### Description
 
-## Commands
+Emerus Interactive an map that tells the story of the world we have created together.
 
-### Development
+### How to Contribute
 
-Installs Dependencies
-```
-npm i
-```
+Add to the data object nested in the respective planar folder.
 
-Runs Dev locally
-```
-npm run dev
-```
+Example:
 
-### Deployment
-npm run build
+./src/pages/Material/data.tsx
+
+coords are the pixels of the image that you would like to make interactable
+
+x, y, size
