@@ -5,7 +5,7 @@ const MaterialPlane = (props) => {
     <div>
       <img
         // onMouseOver={() => {}}
-        src="map.jpeg"
+        src="/Emerus-Interactive/material-plane.jpeg"
         alt="Workplace"
         useMap="#workmap"
         width="auto"

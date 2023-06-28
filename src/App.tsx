@@ -4,7 +4,7 @@ import React from "react";
 import Routing from "./routing";
 
 export const ColorModeContext = React.createContext({
-  toggleColorMode: () => {},
+  toggleColorMode: () => {}
 });
 
 /**
@@ -13,7 +13,7 @@ export const ColorModeContext = React.createContext({
  */
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Emerus-Interactive">
       <AppBarWithTheme>
         <Routing />
       </AppBarWithTheme>
