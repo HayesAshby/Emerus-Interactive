@@ -1,8 +1,9 @@
 import mapped from "./mapped";
+import Card from "@mui/material/Card";
 
 const MaterialPlane = (props) => {
   return (
-    <div>
+    <Card>
       <img
         // onMouseOver={() => {}}
         src="/Emerus-Interactive/material-plane.jpeg"
@@ -17,7 +18,7 @@ const MaterialPlane = (props) => {
           return place.area;
         })}
       </map>
-    </div>
+    </Card>
   );
 };
 export default MaterialPlane;

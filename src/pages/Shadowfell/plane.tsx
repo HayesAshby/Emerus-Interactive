@@ -1,8 +1,9 @@
 import mapped from "./mapped";
+import Card from "@mui/material/Card";
 
 const Shadowfell = (props) => {
   return (
-    <div>
+    <Card>
       <img
         // onMouseOver={() => {}}
         src="/Emerus-Interactive/shadowfell.jpg"
@@ -17,7 +18,7 @@ const Shadowfell = (props) => {
           return place.area;
         })}
       </map>
-    </div>
+    </Card>
   );
 };
 export default Shadowfell;
