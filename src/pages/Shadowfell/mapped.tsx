@@ -1,7 +1,7 @@
 import shadowfellData from "./data";
 import generatePOI from "./builder";
 
-const mapped = () => {
+const mappedShadowfell = () => {
   const mappedLocations = shadowfellData.map((data) => {
     const place = generatePOI(data);
     return place;
@@ -9,4 +9,4 @@ const mapped = () => {
   return mappedLocations;
 };
 
-export default mapped;
+export default mappedShadowfell;

@@ -1,4 +1,4 @@
-import mapped from "./mapped";
+import mappedMaterial from "./mapped";
 import Card from "@mui/material/Card";
 
 const MaterialPlane = (props) => {
@@ -14,7 +14,7 @@ const MaterialPlane = (props) => {
       />
 
       <map name="workmap">
-        {mapped().map((place) => {
+        {mappedMaterial().map((place) => {
           return place.area;
         })}
       </map>

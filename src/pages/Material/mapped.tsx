@@ -1,7 +1,7 @@
 import materialData from "./data";
 import generatePOI from "./builder";
 
-const mapped = () => {
+const mappedMaterial = () => {
   const mappedLocations = materialData.map((data) => {
     const place = generatePOI(data);
     return place;
@@ -9,4 +9,4 @@ const mapped = () => {
   return mappedLocations;
 };
 
-export default mapped;
+export default mappedMaterial;

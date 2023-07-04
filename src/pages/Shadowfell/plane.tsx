@@ -1,4 +1,4 @@
-import mapped from "./mapped";
+import mappedShadowfell from "./mapped";
 import Card from "@mui/material/Card";
 
 const Shadowfell = (props) => {
@@ -14,7 +14,7 @@ const Shadowfell = (props) => {
       />
 
       <map name="workmap">
-        {mapped().map((place) => {
+        {mappedShadowfell().map((place) => {
           return place.area;
         })}
       </map>
