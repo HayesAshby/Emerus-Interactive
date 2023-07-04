@@ -5,7 +5,7 @@ const Shadowfell = (props) => {
     <div>
       <img
         // onMouseOver={() => {}}
-        src="/Emerus-Interactive/shadowfell-placeholder.jpeg"
+        src="/Emerus-Interactive/shadowfell.jpg"
         alt="Workplace"
         useMap="#workmap"
         width="auto"
