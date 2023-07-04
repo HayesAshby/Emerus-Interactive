@@ -25,6 +25,10 @@ const Home = () => {
             Modify the appropriate data file you want to contribute to Example:
             ./src/pages/Material/data.tsx
           </Typography>
+          <Typography>
+            coords are the pixels of the image that you would like to make
+            interactable x, y, size
+          </Typography>
         </CardContent>
       </Card>
     </Card>
