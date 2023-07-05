@@ -1,4 +1,10 @@
-import { Card, CardContent, CardHeader, Typography } from "@mui/material";
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  Stack,
+  Typography
+} from "@mui/material";
 
 const materialData = [
   {
@@ -68,25 +74,35 @@ const materialData = [
     ),
     POIPage: (
       <div>
-        <Typography>Lorem Ipsum</Typography>
-        <Typography>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-          scelerisque sagittis tortor. Fusce venenatis urna ac ligula posuere,
-          in ultrices arcu efficitur. Duis finibus aliquet felis, in semper eros
-          cursus nec. Sed pretium sapien nec purus interdum, sed malesuada enim
-          molestie. Cras at justo ac diam rhoncus sagittis at vel dui. Praesent
-          semper augue eget quam interdum, id consequat velit varius. Quisque
-          non purus semper, feugiat risus at, pellentesque nunc. Morbi tincidunt
-          ullamcorper sapien, sed eleifend enim.
-        </Typography>
-        <Typography>
-          Proin ac leo ac ligula posuere fermentum. Curabitur vitae sollicitudin
-          tellus, eu eleifend ligula. Mauris fringilla velit eu ligula posuere
-          facilisis. Ut auctor malesuada efficitur. Donec vel sagittis nunc, id
-          luctus nunc. Donec in metus ligula. Pellentesque habitant morbi
-          tristique senectus et netus et malesuada fames ac turpis egestas.
-          Quisque efficitur placerat ipsum vitae auctor.
-        </Typography>
+        <Stack spacing={10} direction={"row"}>
+          <div></div>
+          <Card color="secondary">
+            <CardHeader title="Lorem Ipsum" />
+            <CardContent>
+              <Typography>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus scelerisque sagittis tortor. Fusce venenatis urna ac
+                ligula posuere, in ultrices arcu efficitur. Duis finibus aliquet
+                felis, in semper eros cursus nec. Sed pretium sapien nec purus
+                interdum, sed malesuada enim molestie. Cras at justo ac diam
+                rhoncus sagittis at vel dui. Praesent semper augue eget quam
+                interdum, id consequat velit varius. Quisque non purus semper,
+                feugiat risus at, pellentesque nunc. Morbi tincidunt ullamcorper
+                sapien, sed eleifend enim.
+              </Typography>
+              <Typography>
+                Proin ac leo ac ligula posuere fermentum. Curabitur vitae
+                sollicitudin tellus, eu eleifend ligula. Mauris fringilla velit
+                eu ligula posuere facilisis. Ut auctor malesuada efficitur.
+                Donec vel sagittis nunc, id luctus nunc. Donec in metus ligula.
+                Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas. Quisque efficitur placerat
+                ipsum vitae auctor.
+              </Typography>
+            </CardContent>
+          </Card>
+          <div></div>
+        </Stack>
       </div>
     ),
     coords: "535,280,7",

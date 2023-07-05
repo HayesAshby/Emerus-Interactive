@@ -11,7 +11,7 @@ const generatePOI = (place: { name; HoverInfo; POIPage; coords; shape }) => {
         path={`/Shadowfell/${place.name}`}
         element={
           <Card sx={{ minHeight: "100vh", minWidth: "100vw" }}>
-            {place.POIPage}
+            place.POIPage
           </Card>
         }
       />

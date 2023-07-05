@@ -44,6 +44,9 @@ const darkTheme: PaletteOptions = {
   // palette values for dark mode
   primary: {
     main: "#f50057"
+  },
+  secondary: {
+    main: "#999B97"
   }
   // success: {
   //   main: "#c5ffb4"
